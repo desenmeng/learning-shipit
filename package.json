@@ -1,0 +1,26 @@
+{
+  "name": "learning-shipit",
+  "version": "1.0.0",
+  "description": "shipit example",
+  "scripts": {
+    "deploy": "shipit production deploy",
+    "deploy:dev": "shipit development deploy",
+    "rollback": "shipit production rollback",
+    "rollback:dev": "shipit development rollback"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/demohi/learning-shipit.git"
+  },
+  "author": "mdemo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/demohi/learning-shipit/issues"
+  },
+  "homepage": "https://github.com/demohi/learning-shipit#readme",
+  "devDependencies": {
+    "shipit-cnpm": "^0.1.0",
+    "shipit-deploy": "^2.0.0",
+    "shipit-pm": "^0.1.0"
+  }
+}
